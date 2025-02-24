@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>jurnalistik workshop</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        body {
+            background-color: #EBEBED;
+            font-family: Arial, sans-serif;
+        }
+
+        .sidebar {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            height: 100vh;
+            width: 230px;
+            position: fixed;
+            background: #E1771E;
+        }
+
+        .sidebar img {
+            display: block;
+            margin: 0 auto;
+        }
+
+        .sidebar .nav-link {
+            color: white;
+            font-weight: bold;
+            width: 100%;
+            line-height: 1;
+        }
+
+        .content-d {
+            margin-left: 230px;
+        }
+
+        .resume-section {
+            margin-left: 250px;
+        }
+
+        .resume-section h3 {
+            margin-top: 30px;
+            font-weight: bold;
+        }
+
+        .tittle {
+            font-weight: bold;
+        }
+
+        html {
+            scroll-behavior: smooth;
+        }
+
+        .resume-section a {
+            color: #E1771E;
+            font-weight: bold;
+        }
+
+        /* Responsive Design */
+        @media (max-width: 768px) {
+            .sidebar {
+                display: none;
+            }
+            .content, .resume-section {
+                margin-left: 0;
+                padding: 15px;
+            }
+            .content-d {
+                display: none;
+            }
+        }
+
+        @media (min-width: 992px) {
+    .navbar {
+        display: none;
+    }
+    .content-m {
+        display: none;
+    }
+}
+    </style>
+</head>
+
+<body>
+
+      <!-- Navbar untuk mobile -->
+    <nav class="navbar navbar-expand-lg navbar-dark" style="background-color: #E1771E;">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#"><img src="logo.png" alt="Logo" width="120px"></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="#about">Tentang Kelas</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#syarat">Syarat & Ketentuan</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#register">Cara Pendaftaran</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Sidebar untuk desktop -->
+    <div class="sidebar d-none d-lg-flex">
+        <ul class="nav flex-column">
+            <li class="nav-item"><a class="nav-link" href="#foto"><img src="logo.png" alt="Logo" width="200px"></a></li>
+            <li class="nav-item"><a class="nav-link" href="#about">Tentang Kelas</a></li>
+            <li class="nav-item"><a class="nav-link" href="#syarat">Syarat & Ketentuan</a></li>
+            <li class="nav-item"><a class="nav-link" href="#register">Cara Pendaftaran</a></li>
+        </ul>
+    </div>
+
+    <div class="content-m">
+        <img src="-workshop_MOBILE.jpg" alt="Deskripsi Gambar" width="100%" id="foto">
+    </div>
+
+    <div class="content-d">
+        <img src="-workshop_WEB.jpg" alt="Deskripsi Gambar" width="100%" id="foto">
+    </div>
+
+    <section class="resume-section" id="about">
+        <div>
+            <h3 class="mb-4">Tentang Kelas</h3>
+            <div>
+                <p>
+                    Pernahkah Anda menulis opini atau kolom lalu mengirimkannya ke media massa tetapi tidak pernah
+                    mendapatkan balasan? Jangan bersedih. Di kelas 'Menulis Opini di Media Massa', Anda akan mendapatkan
+                    pelajaran bagaimana menuangkan argumentasi ke dalam sebuah tulisan opini yang aktual, berdasarkan
+                    fakta dan data, mudah dipahami, dan menarik perhatian redaktur opini. Goalsnya tentu saja
+                    mendapatkan tulisan yang legit dibaca.
+                </p>
+                <div class="tittle">
+                    <p> Alasan mengapa Anda perlu ikut kelas menulis Republika </p>
+                </div>
+                <p>
+                <ol>
+                    <li>Materi yang didapat mudah diterapkan. Dalam satu hari penuh, Anda bisa menulis konten yang siap
+                        dipublikasikan.</li>
+                    <li>Belajar dari pengalaman pemateri. Peserta bisa belajar langsung dari pemateri yang memiliki
+                        pengalaman dalam membuat berita dan menulis opini. Metode yang digunakan pun interaktif dengan
+                        kombinasi interaktif.</li>
+                    <li>Pemateri dan Pendamping Wartawan Republika: Selama di dalam kelas, peserta akan diajarkan
+                        wartawan Republika sebagai pemateri. Peserta juga akan didampingi selama praktik penulisan oleh
+                        wartawan Republika.</li>
+                </ol>
+                </p>
+                <div class="tittle">
+                    <p> Terbuka untuk umum </p>
+                </div>
+                <p>
+                    Kelas menulis opini Republika terbuka untuk pemula dan profesional, sehingga sangat cocok untuk
+                    dosen, akademisi, peneliti, guru, mahasiswa, hingga profesional yang ingin berbagi ide dan
+                    perspektif mereka dengan khalayak yang lebih luas. Anda akan mendapatkan keterampilan berharga untuk
+                    mengekspresikan pandangan Anda secara efisien dan efektif.
+
+                    Karena itu, jangan biarkan ide-ide Anda tenggelam dalam catatan di kepala saja. Tuangkan ide yang
+                    Anda miliki dalam sebuah tulisan sehingga bisa didengar seluruh dunia.
+                </p>
+                <div class="tittle">
+                    <p>Materi yang Diajarkan</p>
+                </div>
+                <p>
+                <ul>
+                    <li> Teknik Menulis Menggunakan Kalimat Yang Efektif</li>
+                    <li> Teknik Menembus Meja Redaksi</li>
+                    <li> Teknik Menentukan Angle Tulisan dan Menyusun Argumentasi yang Berbasis Data</li>
+                    <li> Teknik Menulis Opini Yang Mudah Dipahami</li>
+                    <li> Praktik, Mentoring, dan Pembahasan Mendalam</li>
+                </ul>
+                </p>
+                <div class="tittle">
+                    <p>Pengajar</p>
+                </div>
+                <p>
+                <ul>
+                    <li> Subroto (Redaktur Pelaksana Republika)</li>
+                    <li> Fitryan Zamzami (Kepala Redaksi Republika.id)</li>
+                </ul>
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <section class="resume-section" id="syarat">
+        <div>
+            <h3 class="mb-4">Syarat & Ketentuan Pelatihan</h3>
+            <div>
+                <p>
+                    Pelatihan akan berjalan jika kuota minimal kelas 15 orang peserta terpenuhi.
+                </p>
+    </section>
+
+    <section class="resume-section" id="register">
+        <div>
+            <h3 class="mb-4">Cara Mendaftar Workshop Jurnalistik (Republika)</h3>
+            <div>
+                <p>
+                <ol style="text-align: left;">
+                    <li>Buka Laman <a href="https://bit.ly/RepublikaOpini2025" target="_blank">Workshop Jurnalistik -
+                            Republika</a>
+                    </li>
+                    <li>Lengkapi Data kemudian klik tombol melanjutkan</li>
+                    <li>Pilih Metode Pembayaran </li>
+                </ol>
+                </p>
+                <p>Informasi pendaftaran bisa menghubungi nomor WhatsApp: 0812 1939 0767</p>
+    </section>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+
+
+</body>
+
+</html>
